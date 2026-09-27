@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wachimations</title>
+<meta name="description" content="Wachimations: asistente personal por WhatsApp para organizar categorías y listas en tu Google Drive.">
+<style>
+  :root { --bg: #f7f7f5; --fg: #1d1d1b; --muted: #5f5f5a; --accent: #1f8a5b; --card: #ffffff; --line: #e4e4df; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151514; --fg: #ededea; --muted: #a3a39d; --accent: #4cc38a; --card: #1e1e1c; --line: #2e2e2b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2.2rem; margin: 0 0 8px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+  p, li { color: var(--muted); }
+  .lead { font-size: 1.15rem; color: var(--fg); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; margin: 16px 0; }
+  ul { padding-left: 20px; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; font-size: 0.9rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Wachimations</h1>
+  <p class="lead">Asistente personal por WhatsApp que organiza tu información en categorías, carpetas y listas dentro de tu propio Google Drive.</p>
+
+  <div class="card">
+    <h2>Qué hace</h2>
+    <ul>
+      <li>Crea categorías (por ejemplo Supermercado, Autos o Trabajos), cada una con su carpeta en tu Google Drive.</li>
+      <li>Dentro de cada categoría arma listas en Google Sheets con las columnas que vos elijas, y te deja agregar, ver y sacar ítems hablándole por WhatsApp.</li>
+      <li>Todo lo que crea queda en tu Drive: es tuyo y lo podés abrir, editar o borrar cuando quieras.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Acceso a tu Google Drive</h2>
+    <p>Wachimations pide un solo permiso de Drive: <strong>ver, editar, crear y borrar solo los archivos que la propia app crea</strong> (<code>drive.file</code>). No puede ver ni modificar ningún otro archivo de tu Drive. Podés quitarle el acceso en cualquier momento desde <a href="https://myaccount.google.com/permissions">tu cuenta de Google</a> o escribiéndole "desconectar drive".</p>
+  </div>
+
+  <div class="card">
+    <h2>Quién puede usarlo</h2>
+    <p>Es un servicio privado: solo lo usan personas autorizadas por el administrador. Cada persona conecta su propio Drive y nadie ve la información de otro.</p>
+  </div>
+
+  <p><a href="privacidad.html">Política de privacidad</a></p>
+
+  <footer>Contacto: <a href="mailto:rodri.lpzz@gmail.com">rodri.lpzz@gmail.com</a></footer>
+</main>
+</body>
+</html>

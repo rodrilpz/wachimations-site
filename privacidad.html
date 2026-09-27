@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wachimations · Política de privacidad</title>
+<meta name="description" content="Política de privacidad de Wachimations.">
+<style>
+  :root { --bg: #f7f7f5; --fg: #1d1d1b; --muted: #5f5f5a; --accent: #1f8a5b; --line: #e4e4df; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151514; --fg: #ededea; --muted: #a3a39d; --accent: #4cc38a; --line: #2e2e2b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  p, li { color: var(--muted); }
+  a { color: var(--accent); }
+  .updated { font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad</h1>
+  <p class="updated">Wachimations · Última actualización: 27 de septiembre de 2026</p>
+
+  <p>Wachimations es un asistente personal por WhatsApp, de uso privado, operado por Rodrigo López. Esta política explica qué datos usa, para qué y cómo podés controlarlos.</p>
+
+  <h2>1. Datos que usamos</h2>
+  <ul>
+    <li><strong>Tu número de WhatsApp</strong>, para identificarte y responderte. Solo se atiende a números autorizados por el administrador. Los mensajes viajan por WhatsApp (Meta), según sus propias condiciones y política de privacidad.</li>
+    <li><strong>Los mensajes que le mandás al bot</strong> y un historial corto de la conversación (los últimos mensajes), para entender lo que pedís.</li>
+    <li><strong>Tu cuenta de Google</strong> (tu email y un permiso de acceso), solo si conectás tu Google Drive.</li>
+    <li><strong>La estructura de tus categorías</strong>: nombres de categorías, carpetas y listas, y sus columnas.</li>
+  </ul>
+
+  <h2>2. Acceso a Google Drive y Google Sheets</h2>
+  <p>Wachimations pide únicamente el permiso <code>drive.file</code>: puede ver, editar, crear y borrar <strong>solo los archivos y carpetas que la propia app crea</strong> en tu Drive (tus categorías, carpetas y listas). No puede leer ni modificar ningún otro archivo tuyo.</p>
+  <p>El contenido de tus listas se guarda en tu Drive, no en nuestros servidores. El bot lo lee cuando le pedís verlo o modificarlo.</p>
+  <p>El uso de la información recibida de las APIs de Google cumple con la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>, incluidos los requisitos de uso limitado.</p>
+
+  <h2>3. Procesamiento con inteligencia artificial</h2>
+  <p>Para entender tus mensajes, su texto (junto con el historial corto de la conversación y los nombres de tus categorías, carpetas y listas) se envía a proveedores de modelos de IA: Google Gemini, Groq y OpenRouter. Ese texto puede incluir datos de tus listas cuando le pedís verlas o modificarlas. Se envía solo para generar la respuesta a tu mensaje; Wachimations no lo usa para ningún otro fin.</p>
+  <p>Algunos de estos proveedores se usan en su modalidad gratuita, cuyas condiciones pueden permitirles guardar y usar lo que reciben para mejorar sus servicios. Por eso te recomendamos no mandarle al bot información sensible (contraseñas, datos bancarios, datos de salud de terceros).</p>
+
+  <h2>4. Dónde se guarda y por cuánto tiempo</h2>
+  <ul>
+    <li>El permiso de acceso a tu Drive, tu email de Google, la estructura de tus categorías y el historial corto de conversación se guardan en un servidor privado del administrador.</li>
+    <li>Se conservan mientras uses el servicio. Si desconectás tu Drive, se borra el permiso de acceso; tu email y la estructura de tus categorías quedan guardados hasta que pidas borrarlos (ver abajo).</li>
+    <li>No vendemos ni compartimos tus datos con terceros, salvo WhatsApp, que transporta los mensajes, y los proveedores de IA mencionados arriba para procesarlos.</li>
+  </ul>
+
+  <h2>5. Tus opciones</h2>
+  <ul>
+    <li>Escribile <strong>"desconectar drive"</strong> al bot para revocar el acceso a tu Drive. También podés quitarlo desde <a href="https://myaccount.google.com/permissions">tu cuenta de Google</a>.</li>
+    <li>Tus carpetas y listas quedan en tu Drive: podés editarlas o borrarlas cuando quieras.</li>
+    <li>Para pedir que se borre toda tu información del servidor, escribí a <a href="mailto:rodri.lpzz@gmail.com">rodri.lpzz@gmail.com</a>.</li>
+  </ul>
+
+  <h2>6. Contacto</h2>
+  <p>Consultas sobre esta política: <a href="mailto:rodri.lpzz@gmail.com">rodri.lpzz@gmail.com</a></p>
+
+  <p><a href="index.html">← Volver a Wachimations</a></p>
+</main>
+</body>
+</html>
